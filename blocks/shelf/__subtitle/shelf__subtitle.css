@@ -1,0 +1,9 @@
+.shelf__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 32px auto 64px auto;
+  max-width: 640px;
+  text-align: center;
+}
