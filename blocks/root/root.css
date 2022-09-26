@@ -1,0 +1,4 @@
+:root {
+  --overlay-30: linear-gradient(0deg, rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3));
+  --overlay-80: linear-gradient(0deg, rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8));
+}

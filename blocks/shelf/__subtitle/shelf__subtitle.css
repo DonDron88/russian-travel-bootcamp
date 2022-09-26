@@ -7,3 +7,26 @@
   max-width: 640px;
   text-align: center;
 }
+
+@media screen and (max-width: 1023px) {
+  .shelf__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .shelf__subtitle {
+    font-size: 4.2vw;
+    line-height: 1.15;
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .shelf__subtitle {
+    margin: 16px auto 40px auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

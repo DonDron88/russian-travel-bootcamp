@@ -1,0 +1,17 @@
+.cover {
+  max-width: 1184px;
+  margin: 92px auto 0;
+  background-size: cover;
+  background-image: var(--overlay-30), url(../../images/wagons.jpg);
+  background-position: center;
+}
+
+.cover:hover {
+  background-image: var(--overlay-80), url(../../images/wagons.jpg);
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    max-width: 99%;
+  }
+}

@@ -6,3 +6,16 @@
   margin: 0 auto;
   padding: 28px 0 56px;
 }
+
+@media screen and (max-width: 1023px) {
+  .header {
+    padding-bottom: 48px;
+    max-width: 99%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    margin: 0 16px 0;
+  }
+}
