@@ -10,8 +10,8 @@
   background-image: var(--overlay-80), url(../../images/wagons.jpg);
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 767px) {
   .cover {
-    max-width: 99%;
+    margin-top: 66px;
   }
 }

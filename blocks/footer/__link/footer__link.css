@@ -4,6 +4,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+  margin-right: 18px;
   opacity: 1;
   transition: opacity 0.3s ease-in;
 }
@@ -12,11 +13,15 @@
   opacity: 0.8;
 }
 
+.footer__link:last-of-type {
+  margin: 0;
+}
+
 @media screen and (max-width: 767px) {
   .footer__link {
-    margin: 0;
-    margin-bottom: 32px;
+    margin: 0 0 32px;
     font-size: 24px;
     line-height: 24px;
+    margin: 0 0 32px;
   }
 }

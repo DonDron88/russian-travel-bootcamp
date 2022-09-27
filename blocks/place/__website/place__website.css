@@ -1,11 +1,14 @@
 .place__website {
   grid-column-start: 2;
   align-self: end;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 767px) {
   .place__website {
     grid-column-start: 1;
     grid-row-start: 2;
+    margin-left: 16px;
   }
 }
