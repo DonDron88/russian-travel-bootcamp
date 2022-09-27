@@ -7,3 +7,5 @@
 - Flexbox
 - Методология Бэм
 - Figma
+
+[Ссылка на проект](https://dondron88.github.io/russian-travel-bootcamp/)
